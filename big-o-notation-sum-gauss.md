@@ -38,7 +38,7 @@ for (int i = 1; i <= n; i++) {
 
 ---
 
-# 🔹 2. Varianta 2 — O(n)
+# 🔹 2. Varianta 2 Divide Et Impera — O(n)
 
 ```cpp
 #include <iostream> 
@@ -56,9 +56,29 @@ int sum(int a, int b) {
 
 int main(int argc, char const *argv[]) { 
 
-    int n = 10; cout<<sum(1, 10); return 0; 
+    int n = 10; cout<<sum(1, 10);
+
+    return 0; 
 }
 ```
+
+
+# 🔹 4. Varianta 4 Recursively — O(n)
+
+```cpp
+
+int sum(int n) {
+    if (n == 1) return 1;
+    return n + sum(n - 1);
+}
+int main(int argc, char const *argv[]) { 
+
+    int n = 10; cout<<sum(1, 10);
+
+    return 0; 
+}
+```
+
 
 # 🔹 3. Varianta 2 — O(n) 
 
