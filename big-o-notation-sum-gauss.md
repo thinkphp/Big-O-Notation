@@ -103,13 +103,9 @@ for (int i = 1; i <= n; i++) {
 
 ---
 
-# 🔹 4. Varianta 5 — O(1) 
+# 🔹 4. Varianta 5 Optima — O(1) complexitate constanta
 
 Formula lui Carl Friedrich Gauss:
-
-[
-S = \frac{n(n+1)}{2}
-]
 
 ```cpp
 int suma = n * (n + 1) / 2;
