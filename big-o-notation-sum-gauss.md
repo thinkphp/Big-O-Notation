@@ -63,7 +63,7 @@ int main(int argc, char const *argv[]) {
 ```
 
 
-# 🔹 4. Varianta 4 Recursively — O(n)
+# 🔹 4. Varianta 3 Recursively — O(n)
 
 ```cpp
 
@@ -80,7 +80,7 @@ int main(int argc, char const *argv[]) {
 ```
 
 
-# 🔹 3. Varianta 2 — O(n) 
+# 🔹 3. Varianta 4 — O(n) 
 
 ```cpp
 int suma = 0;
@@ -103,7 +103,7 @@ for (int i = 1; i <= n; i++) {
 
 ---
 
-# 🔹 4. Varianta 3 — O(1) 
+# 🔹 4. Varianta 5 — O(1) 
 
 Formula lui Carl Friedrich Gauss:
 
