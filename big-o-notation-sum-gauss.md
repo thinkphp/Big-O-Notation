@@ -40,7 +40,7 @@ for (int i = 1; i <= n; i++) {
 
 # 🔹 2. Varianta 2 — O(n)
 
-# ```cpp
+```cpp
 #include <iostream> 
 
 using namespace std; 
