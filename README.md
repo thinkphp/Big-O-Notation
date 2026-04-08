@@ -1,5 +1,4 @@
 # Big-O-Notation
-Big O Notation
 
 ## Spațiu O(1) vs O(n)
 
