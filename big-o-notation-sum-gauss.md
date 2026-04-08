@@ -38,6 +38,28 @@ for (int i = 1; i <= n; i++) {
 
 ---
 
+# 🔹 2. Varianta 2 — O(n)
+
+# ```cpp
+#include <iostream> 
+
+using namespace std; 
+
+int sum(int a, int b) { 
+
+    if(a == b) return a; 
+    
+    else 
+    
+    return sum(a, ( a + b ) /2 ) + sum( (a + b) / 2 + 1, b); 
+} 
+
+int main(int argc, char const *argv[]) { 
+
+    int n = 10; cout<<sum(1, 10); return 0; 
+}
+```
+
 # 🔹 3. Varianta 2 — O(n) 
 
 ```cpp
