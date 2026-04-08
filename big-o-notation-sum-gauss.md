@@ -1,4 +1,4 @@
-# Introducere în Big O Notation  (Suma Gauss varianta optima O(1) - complexitate constanta)
+# Introduction to Big O Notation
 
 # 🔹 1. Hook
 
