@@ -74,5 +74,6 @@ Pentru `n` mic diferența e neglijabilă. Pentru `n` foarte mare, **O(n) spațiu
 
 
 ### References 
+- https://introcs.cs.princeton.edu/java/41analysis/
 - https://neetcode.io/courses/lessons/big-o-notation
 - https://www.w3schools.com/dsa/dsa_timecomplexity_binarysearch.php
