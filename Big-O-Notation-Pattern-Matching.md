@@ -25,7 +25,31 @@ O(nm)
 * doar pentru explicații
 * implementare rapidă
 
----
+
+```
+for (int i = 0; i < n; i++) {
+    bool ok = true;
+    for (int j = 0; j < m; j++) {
+        if (text[i + j] != pattern[j]) {
+            ok = false;
+            break;
+        }
+    }
+}
+```
+
+👉 Întrebare:
+
+„Câte comparații facem în cel mai rău caz?”
+
+✔ Răspuns:
+
+O(nm)
+
+👉 Mesaj:
+
+„Simplu, dar repetă foarte mult muncă inutilă”
+
 
 ## 2. 🟡 KMP (pattern optimization)
 
