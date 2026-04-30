@@ -1,6 +1,6 @@
 # Big O Notation String Pattern Matching — Overview (Big Picture)
 
-1. Hook
+### 1. Hook
 
 👉 Începe cu o întrebare simplă:
 
