@@ -1,5 +1,19 @@
 # Big O Notation String Pattern Matching — Overview (Big Picture)
 
+1. Hook
+
+👉 Începe cu o întrebare simplă:
+
+„Cum găsim cuvântul 'ana' într-un text lung?”
+
+Exemplu:
+
+"ana are mere si banana"
+
+👉 Întrebare:
+
+„Verificăm fiecare poziție sau există o metodă mai inteligentă?”
+
 ## 1. 🟢 Algoritmul Naiv (baseline)
 
 * Idee: compari la fiecare poziție
