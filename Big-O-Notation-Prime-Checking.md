@@ -1,8 +1,8 @@
-# Big O Analysis: Primality Testing (Brute Force vs Fermat)
+# Big O Analysis: Primality Checking 
 
 ## 📌 Overview
 
-Acest proiect compară două abordări pentru testarea primalității:
+Acest proiect compară trei abordări pentru testarea primalității:
 
 1. **Brute Force Deterministic Check**
 2. **Fermat Probabilistic Primality Test**
@@ -15,9 +15,7 @@ Scopul este analiza complexității în timp și spațiu folosind **Big O Notati
 
 ---
 
-# 🧠 1. Brute Force Primality Check
-
-## 🔹 Algoritm
+# 🧠 1. Brute Force
 
 ```
 // -------------------- CHECK (brute force) --------------------
@@ -73,8 +71,6 @@ O(1)
 ---
 
 # ⚡ 2. Fast Modular Exponentiation
-
-## 🔹 Algoritm
 
 Calculăm eficient:
 
