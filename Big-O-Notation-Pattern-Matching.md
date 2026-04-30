@@ -1,4 +1,4 @@
-# Big O Notation String Pattern Matching — Overview (Big Picture)
+# Big O Notation String Pattern Matching
 
 ### Hook
 
