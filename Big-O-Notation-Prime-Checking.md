@@ -227,8 +227,6 @@ Există numere compuse (Carmichael numbers) care trec testul.
 
 # 🧮 Ciurul lui Eratosthenes
 
-## 🔹 Algoritm
-
 ```cpp
 vector<bool> sieve(int n) {
     vector<bool> is_prime(n + 1, true);
