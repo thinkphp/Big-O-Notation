@@ -239,11 +239,3 @@ Diferența fundamentală:
 
 * Brute Force → verifică **toți posibilii divizori**
 * Fermat → verifică **o proprietate matematică probabilistică**
-
----
-
-Dacă vrei, pot să-ți fac și:
-
-✔ versiune GitHub profesională (cu badges, structura repo)
-✔ diagramă de complexitate (graf comparativ O(√n) vs O(log n))
-✔ sau upgrade la Miller–Rabin (standard industrial)
