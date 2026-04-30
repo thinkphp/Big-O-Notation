@@ -111,7 +111,7 @@ O(n + m + z)
 
 
 
-Pattern matching algorithms differ mainly by where they spend their complexity: preprocessing, searching, or skipping work.”
+### Pattern matching algorithms differ mainly by where they spend their complexity: preprocessing, searching, or skipping work.”
 
-* sau o diagramă tip flowchart (foarte bună pentru prezentare orală)
+
 
