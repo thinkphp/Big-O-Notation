@@ -97,7 +97,7 @@ O(1)
 
 ---
 
-# 🔬 3. Fermat Primality Test
+# 🔬 3. Fermat's Little Theorem
 
 ## 🔹 Algoritm
 
