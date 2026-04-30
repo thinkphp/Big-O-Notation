@@ -223,13 +223,61 @@ Există numere compuse (Carmichael numbers) care trec testul.
 | Fermat Test           | probabilistic | O(log n) | O(1)   | ~99%+     |
 | Fast Power            | subrutina     | O(log n) | O(1)   | N/A       |
 
+
+
+# 🧮 Ciurul lui Eratosthenes
+
+## 🔹 Algoritm
+
+```cpp
+vector<bool> sieve(int n) {
+    vector<bool> is_prime(n + 1, true);
+    is_prime[0] = is_prime[1] = false;
+
+    for (int i = 2; i * i <= n; i++) {
+        if (is_prime[i]) {
+            for (int j = i * i; j <= n; j += i)
+                is_prime[j] = false;
+        }
+    }
+    return is_prime;
+}
+```
+
+Marchează ca **compus** fiecare multiplu al fiecărui prim, începând de la `i * i`.
+
 ---
 
-# 🚀 5. Concluzie
+## ⏱️ Complexitate timp
 
-* **Brute Force** → simplu, dar lent
-* **Fermat Test** → foarte rapid, dar probabilistic
-* **Fast Power** → optimizare esențială pentru algoritmi modulari
+$$O(n \log \log n)$$
+
+Bucla internă face n/p pași pentru fiecare prim p. Suma totală urmează seria lui Mertens — rezultă **aproape liniară**.
+
+## 💾 Complexitate spațiu
+
+$$O(n)$$
+
+Un singur vector de n+1 bool-uri. Cu `vector<bool>`, C++ stochează 1 bit per element → **n/8 bytes** în practică.
+
+---
+
+## ⚠️ Când se folosește
+
+- ✔ Trebuie **toate** primele până la n
+- ✔ Faci **multe** interogări pe un interval fix → fiecare devine O(1) după preprocesare
+- ❌ n foarte mare (10⁹+) → memoria O(n) devine prohibitivă → folosești *ciurul segmentat*
+
+---
+
+## 📊 Tabel comparativ actualizat
+
+| Algoritm | Tip | Timp | Spațiu | Siguranță |
+|---|---|---|---|---|
+| Brute Force | determinist | O(√n) | O(1) | 100% |
+| Fermat Test | probabilistic | O(log n) | O(1) | ~96%+ |
+| Fast Power | subrutină | O(log n) | O(1) | N/A |
+| **Sieve** | **determinist** | **O(n log log n)** | **O(n)** | **100%** |
 
 ---
 
