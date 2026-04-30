@@ -19,6 +19,29 @@ Scopul este analiza complexității în timp și spațiu folosind **Big O Notati
 
 ## 🔹 Algoritm
 
+```
+// -------------------- CHECK (brute force) --------------------
+bool check(long long n) {
+    if (n == 2 || n == 3)
+        return true;
+
+    if (n < 2)
+        return false;
+
+    if (n % 2 == 0)
+        return false;
+
+    for (long long i = 3; i * i <= n; i += 2) {
+        if (n % i == 0)
+            return false;
+    }
+
+    return true;
+}
+
+
+```
+
 Se verifică dacă un număr ( n ) are divizori până la ( \sqrt{n} ).
 
 i \le \sqrt{n}
