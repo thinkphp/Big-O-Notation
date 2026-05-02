@@ -9,3 +9,4 @@
 | Tarjan LCA                   | offline | ~O(1) amortizat | ⭐          |
 | Segment Tree (pe Euler Tour) | online  | O(log N)        | ⭐⭐         |
 ```
+https://chatgpt.com/c/69f59a6d-fbd8-83eb-90cf-53dcd1babbb0
