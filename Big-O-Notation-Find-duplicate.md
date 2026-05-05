@@ -1,4 +1,4 @@
-# Find Duplicate
+# Big O Notation Find Duplicate
 
 Bitmask Approach
 Time Complexity O(n)
