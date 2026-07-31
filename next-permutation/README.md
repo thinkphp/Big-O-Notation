@@ -1,3 +1,5 @@
+# Narayana Pandita's Algorithm
+
 **Algoritmul Narayana Pandita (sec. XIV) – soluție O(n) pentru „următoarea permutare”**
 
 Narayana Pandita, un matematician indian din secolul al XIV-lea, a descris practic ceea ce astăzi numim **algoritmul „next permutation”** — o metodă de a genera următoarea permutare în ordine lexicografică în timp liniar.
